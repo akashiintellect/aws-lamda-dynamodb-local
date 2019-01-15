@@ -1,0 +1,9 @@
+/node_modules
+/desi-fix
+/episode-updater
+/DynamoDBLocal_lib
+/scte-transcript-tracking/node_modules
+/third_party_licenses
+.next
+.idea
+.git

@@ -1,0 +1,19 @@
+{
+  "TableName": "scte-transcript-tracking",
+  "KeySchema": [
+    {
+      "AttributeName": "UUID",
+      "KeyType": "HASH"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "UUID",
+      "AttributeType": "S"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}

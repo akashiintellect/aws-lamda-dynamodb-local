@@ -1,0 +1,21 @@
+{
+  "name": "scte-transcript-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "sls offline start --port 9999",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arslan Khan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.384.0",
+    "body-parser": "^1.18.3",
+    "lodash": "^4.17.11",
+    "serverless": "^1.35.1",
+    "serverless-http": "^1.5.5",
+    "serverless-offline": "^3.20.2",
+    "uuid": "^3.3.2"
+  }
+}
